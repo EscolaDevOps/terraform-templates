@@ -1,7 +1,7 @@
 module "minhavm" {
-  source = "github.com/EscolaDevOps/terraform-modules//gcp/instancia-vm"
+  source = "github.com/EscolaDevOps/terraform-modules//gcp/instancia-vm?ref=v0.0.1"
 
-  projeto = "lustrous-bit-395022"
+  projeto = "project-id"
   regiao = "us-east1"
   zona = "us-east1-b"
 
